@@ -1,0 +1,408 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+/* Nav bar */
+nav{
+    height:100px;
+    background-color:black;
+    display: flex;
+    color: white;
+}
+.profileNav {
+    margin-left: 200px;
+    width: 150px; 
+    margin-right: 20px;
+}
+.profileNav > h1 {
+    font-family: cursive;
+    font-size: 40px;
+    padding: 15px;
+}
+ul{
+    color: grey;
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: cursive;
+    margin-right: 325px; 
+  }
+ul li {
+    padding-left: 30px;
+}
+ul li:nth-child(2){
+    color: white;
+}
+nav > button {
+    width: 150px;
+    height: 42px;
+    background-color:azure;
+    margin-top: 27px;
+    background-color:rgb(23,162,184);
+    color:white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 28px;
+}
+/* Main box for body */
+.bigBox {
+    height: 1000px;
+    background-color: blue;
+    display:flex;
+}
+/* Left Coloumn */
+.leftColo {
+    background-color: white;
+    flex: 3;
+}
+/* top left box */
+.topLeft {
+    height: 500px;
+    margin-left: 200px;
+    width: 600px;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.blueRow {
+    height:150px;
+    background-color:rgb(23,162,184);
+    border: solid rgb(23,162,184) 5px;
+    width: 600px;  
+}
+img[src="jane-m.jpg"]{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+img[src="map-marker.png"]{
+    height: 22px;
+    width: 20px;
+
+}
+.jane {
+    height: 350px;
+    width:600px;
+    background-color: white;
+    padding-top: 50px;
+    list-style-type: none;
+    display: block;
+    width: 600px;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+    border-bottom: solid grey 5px;
+}
+.name {
+    padding-top: 50px;
+    font-size: 40px;
+    padding-left: 50px;
+    font-family: cursive;
+}
+.location{
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.titles{
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 50px;
+    padding-top: 25px;
+}
+.edit{
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 50px;
+    padding-top: 25px;
+    color:rgb(12,83,148);
+    text-decoration: underline;
+}
+img[src="gear.png"]{
+    height: 22px;
+    width: 20px;
+    padding-right: 10px;
+}
+/*  bottom left box */
+.bottomLeft{
+    height: 250px;
+    margin-left: 200px;
+    width: 600px;
+    background-color: red;
+    margin-top: 100px;
+}
+.education {
+    height: 45px;
+    width:580px;
+    font-size: 25px;
+    border: solid black 5px;
+    background-color: black;
+    color: white;
+    padding-top:15px;
+    padding-left:20px;
+}
+.edubottom{
+    height: 205px;
+    width:600px;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+    background-color: white;
+}
+.dojo {
+    font-size: 30px;
+    font-family: cursive;
+padding-left: 20px;
+margin-bottom:20px;
+padding-top: 15px;
+}
+.dec {
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 20px;
+    margin-bottom:20px;
+    color:grey; 
+}
+.belt {
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 20px;
+    margin-bottom:20px;
+}
+/* Right coloumn */
+.rightColo {
+    flex: 2;
+    background-color: white;
+}
+/* top right box */
+.topRight {
+    height: 250px;
+    background-color:darkcyan;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+.blackrow {
+    height:80px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    color: grey;
+    border: solid black 5px;
+}
+.circle {
+    width:40px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    background-color: grey;
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.blackrow > p {
+    color:white;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.request {
+    height:170px;
+    width: 300px;
+    background-color: white;
+    color: black; 
+}
+.todd {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:70px;
+    width: 300px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-right: solid grey 5px;
+    border-left: solid grey 5px;
+}
+img[src="todd-s.jpg"]{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.namebox {
+    height:50px;
+    width: 140px;
+    background-color: white;
+    padding-top: 15px;
+}
+
+img[src="accept-circle.png"]{
+    height: 35px;
+    width: 35px;
+    padding-top: 10px;
+}   
+img[src="close-circle.png"]{
+    height: 35px;
+    width: 35px;
+    margin-right:5px;
+    margin-left: 5px;
+    padding-top: 10px;
+} 
+.phil {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:70px;
+    width: 300px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-bottom: solid grey 5px;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+}
+img[src="phil-s.jpg"]{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* bottom right box */
+.bottomRight {
+    height: 525px;
+    background-color:darkcyan;
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+.blackrow2 {
+    height:80px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    color: grey;
+    border: solid black 5px;
+}
+.oval {
+    width:60px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    background-color: grey;
+    color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.blackrow2 > p {
+    color:white;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+.adrien {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:70px;
+    width: 300px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+}
+img[src="adrien-s.jpg"]{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.anne {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:70px;
+    width: 300px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+}
+img[src="anne-s.jpg"]{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.alayne {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:70px;
+    width: 300px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+}
+img[src="alayne-s.jpg"]{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.arry {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:70px;
+    width: 300px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-bottom: solid grey 5px;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+}
+img[src="arry-s.jpg"]{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.view {
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    height:50px;
+    width: 280px;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    border-bottom: solid grey 5px;
+    border-left: solid grey 5px;
+    border-right: solid grey 5px;
+    color: royalblue;
+    text-decoration: underline;
+    padding-left: 20px;
+}
